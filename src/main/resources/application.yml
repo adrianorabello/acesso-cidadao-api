@@ -1,0 +1,30 @@
+#server:
+#  port: 8080
+#
+#
+#spring:
+#  profile: dev
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/sepin?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+#    username: 'root'
+#    password: 'devdojo'
+#  jpa:
+#    properties:
+#      hobernate:
+#        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+#    hibernate.ddl-auto: update
+#    generate-ddl: true
+#    show-sql: false
+#
+#security:
+#  oauth2:
+#
+#    resource:
+#      userInfoUri: https://acessocidadao.es.gov.br/is/connect/userinfo
+#      jwk:
+#        key-set-uri: https://acessocidadao.es.gov.br/is/.well-known/jwks
+#
+#biproxy:
+#  port: 8081
+
